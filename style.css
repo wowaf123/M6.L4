@@ -1,0 +1,27 @@
+body {
+    background-color: #f9f7f1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+    div {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+h1, h2 {
+    color: #6b705c;
+}
+p {
+    color: #403d39;
+    font-size: 14px;
+}
