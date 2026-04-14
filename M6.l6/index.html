@@ -32,14 +32,29 @@
 
     <section id="tickets">
         <h2>Квитки</h2>
-        <p>Інформація про ціни, місця та способи придбання квитків.</p>
+        <p>Тип квитка та заповніть форму бронювання.</p>
+        <form action="submit_ticket.php" method="POST">
+            <label for="ticket-type">Тип квитка:</label>
+            <select id="ticket-type" name="ticket_type" required>
+                <option value="standard">Стандартний - 500 грн</option>
+                <option value="vip">VIP - 1500 грн</option>
+            </select>
+           <input type="text" placeholder="Ваше ім'я" name="name" required>
+           <input type="email" placeholder="Ваша електронна пошта" name="email" required>
+           <input type="tel" placeholder="+380641234567" name="phone">
+              <button type="submit">Забронювати</button>
+        </form>
+
     </section>
 
     <section id="contact">
         <h2>Контакти</h2>
-        <p>Зв'яжіться з організаторами для отримання додаткової інформації.</p>
+        <p>Якщо у вас виникли питання, звертайтесь:</p>
+        <address>
+            <p><a href="tel:+380641234567">Телефон: +380641234567</a></p>
+            <p><a href="mailto:info@concert.com">Email: info@concert.com</a></p>
+        </address>
     </section>
-
 </main>
 <footer>
     <p>&copy; 2026 Концерт. Всі права захищені.</p>
