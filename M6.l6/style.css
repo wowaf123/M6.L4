@@ -8,6 +8,7 @@ h1 {
     font-family: Arial, sans-serif;
 }
 nav {
-    background-color: #029a9a;
-    
+    background-color: #00d5ab;
+    display: flex;
+    justify-content: space-between;
 }
